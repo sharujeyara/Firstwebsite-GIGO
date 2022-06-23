@@ -1,0 +1,99 @@
+.heading{
+  color: #a6a6a6;
+  font-size:300%;
+  font-family:"Times New Roman", Times, serif;
+  text-align:center;
+}
+.content{
+  color:#00cc44;
+  font-size: 150%;
+  font-family:"Bradley Hand ITC", Times, serif;
+
+}
+.iconGigo{
+  color:green;
+   font-size:200%;
+}
+.about{
+  color: #a6a6a6;
+  text-align:center;
+  font-size: 120%;
+}
+.qutoes{
+  color: 	 #00cc44;
+  font-size: 150%;
+  text-align:center;
+}
+.heading-body{
+  color: #66cc00;
+  font-size:300%;
+  font-family:"Times New Roman", Times, serif;
+  text-align:left;
+}
+.heading-sub{
+  color: black;
+  font-size:250%;
+  font-family:"Comic Sans MS", Times, serif;
+  text-align:left;
+}
+.division-4r{
+  background-color:inherit;
+  border: 30px;
+}
+
+ * {
+  box-sizing: border-box;
+}
+.mySlides {display: none;
+}
+img {vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

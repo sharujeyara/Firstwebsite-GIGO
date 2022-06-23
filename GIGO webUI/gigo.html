@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="Stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="boo.png"><!--icon-->
+    <meta charset="utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: red ;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.checked {
+  color: orange;
+}
+
+</style>
+
+  </head>
+  <body style="background-color: #e6e6e6">
+    <nav style="background-color: 	 #66ffc2;"class="navbar navbar-default">
+ <div class="container-fluid">
+   <ul class="nav navbar-nav">
+   </style>
+     <li class="active"class="bg-primary" ><a style="background-color: #ffff33"; href="#"><h4 class="iconGigo"><b>GIGO</b>  </h4></a></li>
+     <li><a  href="movies.html"><h4>News feed</h4></a></li>
+     <li><a href="database.html"><h4>database</h4></a></li>
+	 <li><a href="Contact & Inquery.html"><h4>Contact & Inquery</h4></a></li>
+
+
+   </div>
+ </ul>
+ </div>
+</nav>
+<!--nav bar contents-->
+<!--slider start-->
+<div class="panel panel-default" class="abishan" >
+
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="https://static.seattletimes.com/wp-content/uploads/2015/02/recycling-trifecta-1020x762.jpg"style="width:100%; height: 400px;">
+  </div>
+  <div class="mySlides fade">
+    <img src="https://www.bokashi.com.au/site/bokashi/images/RRRC.jpg" style="width:100% ; height: 400px;">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="https://i.pinimg.com/originals/7b/8c/9a/7b8c9a8cac9fff85156e6150fcd958f7.jpg" style="width:100%; height: 400px;">
+  </div>
+  <div class="mySlides fade">
+    <img src="https://image.shutterstock.com/image-vector/ecobrick-plastic-bottle-packed-clean-260nw-1157218996.jpg" style="width:100%; height: 400px;">
+  </div>
+  <div class="mySlides fade">
+    <img src="https://i.pinimg.com/originals/fb/4a/54/fb4a54bceb241e026f7406b80ae13200.jpg" style="width:100%; height: 400px;">
+  </div>
+  <br>
+</div>
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+
+
+  <script>
+  var slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+<!--slider end-->
+<!-- body-->
+    <div class="panel-body" >
+<div class="qutoes">&quot;Often when you think you are at the end of something, you are at the beginning of something else.&quot;
+<br><b>&minus;Fred Rogers, Television Personality</b></div>
+</div>
+<div>
+<h1 class="heading">What is GIGO?</h1>
+<p class="about">
+  We are people, who usually  make domestic wastage in our day today life. Most of the people do not have  the opportunity<br> or chance to do recycling the wastes as the subject is irrelevant to them. So people get decomposable wastes( food wastage, vegetable wastages etc) <br>and non decomposable wastes (like plastic and polythenes) accumulated  with them.The respective Municipality is the potential authority<br>  to remove the wastes which is mandatory to them.
+
+
+</p>
+</div>
+<div class="panel-body" style="background-color: 	 #e6fff7">
+<div class="heading-body">WHAT MORE CAN I DO ?</div>
+<div class="col-sm-3 feature">
+<h1 class="heading-sub"><img src="https://plasticcycle.lk/wp-content/uploads/2014/09/hp4-icon-3.png" width="30" height="30"><b>Refuse</b></h2>
+  <p class="content">Refuse to be a part of the problem, say ‘No thanks’ to plastic. Choose to refuse one-use items like plastic straws and shopping bags.</p>
+
+</div>
+<!--refuse-->
+<div class="col-sm-3 feature">
+<h1 class="heading-sub"><img src="https://plasticcycle.lk/wp-content/uploads/2014/09/hp4-icon-1.png" width="30" height="30"><b>Reuse</b></h2>
+  <p class="content">Reuse your old plastics instead of buying new ones. Old yoghurt cups and ice cream tubs make great flower pots.</p>
+
+</div><!--reuse-->
+<div class="col-sm-3 feature">
+<h1 class="heading-sub"><img src="https://plasticcycle.lk/wp-content/uploads/2014/09/service-icon-3.png" width="30" height="30"><b>Recycle</b></h2>
+  <p class="content">Recycle and dispose of plastic responsibly. Use recycle bins and encourage those you know to do so too!</p>
+
+</div>
+<div class="col-sm-3 feature">
+<h1 class="heading-sub"><img src="https://plasticcycle.lk/wp-content/uploads/2014/09/hp4-icon-2.png" width="30" height="30"><b>Reduce</b></h2>
+  <p class="content">Reduce your plastic waste by making greener decisions. Ask yourself “Does it really need a bag?”a kilo of onions might, but one apple wouldn’t.</p>
+
+</div><!--reduce-->
+</div>
+
+
+</div>
+</div><br><br><br>
+
+    <nav class="navbar navbar-default" style="background-color:#262626;">
+      <div class="col-sm-4 feature" style="color:  #595959";>
+        <center><h3  >Head Office</h3>
+        <p>Urban Council,<br>Park road,<br>Vavuniya,<br>
+          Sri Lanka.
+        </p></center>
+       </div>
+       <div class="col-sm-4 feature" style="color:  #595959";>
+         <center><h3>E-Mail</h3>
+         <a href="#"><p>urbancouncilvav@gmail.com</p></a>
+         <div class="footer-copyright text-center py-3">© 2019 Copyright:
+  <a href="#">GIGO.com</a></center>
+</div>
+        </div>
+        <div class="col-sm-4 feature" style="color:  #595959";>
+              <center><h3>Office</h3>
+              <p>077-3736353<br>
+                024-2222878
+              </p></center>
+
+         </div>
+    </nav>
+  </body>
+</html>
